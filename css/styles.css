@@ -529,7 +529,6 @@ body {
   display: flex;
   align-items: center;
   /* padding-bottom: 94px; */
-  border-bottom: 1px solid #ececec;
 }
 
 .link {
@@ -602,6 +601,11 @@ body {
   margin-left: 50px;
 }
 
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
 .logo {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
@@ -635,10 +639,6 @@ body {
   padding: 6px 22px;
 }
 
-.section-button {
-  padding-top: 100px;
-  padding-bottom: 56px;
-}
 .button-list {
   display: flex;
   justify-content: center;
@@ -682,6 +682,7 @@ body {
 .section-projects {
   padding-top: 50px;
   padding-bottom: 94px;
+  border-bottom: 1px solid #ececec;
 }
 
 .portfolio-list {
