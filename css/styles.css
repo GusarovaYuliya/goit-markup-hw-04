@@ -399,7 +399,6 @@ body {
 }
 
 /* ----------Clients--------------- */
-
 .clients-title {
   font-family: Roboto;
   font-style: normal;
@@ -409,6 +408,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-top: 94px;
+  margin-bottom: 50px;
 }
 
 .clients-list {
@@ -429,7 +430,9 @@ body {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
+  margin-bottom: 94px;
 }
+
 .clients-image:not(:last-child) {
   margin-right: 30px;
 }
