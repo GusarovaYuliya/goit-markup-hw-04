@@ -398,6 +398,42 @@ body {
   color: #ffffff;
 }
 
+/* ----------Clients--------------- */
+
+.clients-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.clients-list {
+  display: flex;
+  align-items: center;
+}
+.clients-item {
+  margin-bottom: 50px;
+  margin-right: 30px;
+}
+
+.clients-image {
+  width: 170px;
+  height: 92px;
+  display: flex;
+  align-items: center;
+  padding: 16px 32px 16px 32px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.clients-image:not(:last-child) {
+  margin-right: 30px;
+}
+
 /* .masters-sotial-link:hover .masters-sotial-icon,
 .masters-sotial-link:focus .masters-sotial-icon {
   background-color: #ffffff;
@@ -425,6 +461,14 @@ body {
   letter-spacing: 0.03em;
   color: var(--accent-first-color);
   margin-bottom: 20px;
+}
+
+.contacts-details {
+  margin-bottom: 9px;
+}
+
+.contacts-item {
+  margin-bottom: 9px;
 }
 
 .contacts-list .contacts-link-item {
@@ -626,7 +670,11 @@ body {
 .button-list .link:focus {
   color: #ffffff;
   background-color: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
+
 /* ---------Portfolio---------- */
 .section-projects {
   padding-top: 50px;
@@ -777,7 +825,10 @@ body {
 .portfolio-item {
   margin-right: 30px;
   margin-bottom: 30px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
 /* -----------FOOTER------------------ */
 .footer {
   background: #2f303a;
@@ -815,6 +866,9 @@ body {
 
 .logo .span {
   color: #000000;
+}
+.adress-location {
+  margin-bottom: 9px;
 }
 
 /* .logo-style {
