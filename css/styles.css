@@ -342,7 +342,9 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
-  margin-bottom: 10px;
+  text-decoration: none;
+  margin-bottom: 30px;
+  margin-top: 10px;
 }
 
 .command-pre-text {
@@ -351,10 +353,13 @@ body {
   letter-spacing: 0.03em;
   color: var(--four-text-color);
   text-align: center;
+  text-decoration: none;
   margin-bottom: 30px;
 }
 
 .masters-item-bottom {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
   padding-top: 30px;
   padding-bottom: 30px;
   background: #ffffff;
