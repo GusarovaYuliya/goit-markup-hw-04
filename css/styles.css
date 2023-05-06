@@ -460,16 +460,19 @@ body {
 .clients-list {
   display: flex;
   justify-content: center;
+  background-position: 50% 50%;
 }
 
 .clients-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  fill: currentColor;
   width: 170px;
   height: 92px;
   margin-bottom: 50px;
   margin-right: 30px;
-}
-.clients-item {
-  fill: currentColor;
 }
 
 .clients-item + .clients-item {
