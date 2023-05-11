@@ -631,9 +631,9 @@ body {
   letter-spacing: 0.02em;
   margin-right: 50px;
 }
-.portfolio-link {
+/* .portfolio-link {
   margin-right: 50px;
-}
+} */
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
@@ -798,7 +798,8 @@ body {
   border: 1px solid #E7E9FC;
   box-sizing: border-box;
   /* padding-top: 32px;
-  padding-bottom: 32px; */
+  padding-bottom: 32px;
+  padding-left: 16px; */
   border-top: none;
 }
 
@@ -810,7 +811,8 @@ body {
   letter-spacing: 0.06em;
   text-decoration: none;
   margin-bottom: 8px;
-  text-align: center;
+  padding-top: 32px;
+  padding-left: 16px;
 }
 
 .title-text {
@@ -818,9 +820,9 @@ body {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
-  text-align: center;
   text-decoration: none;
-  margin-bottom: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
 }
 
 .button {
