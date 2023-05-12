@@ -582,8 +582,10 @@ background: #FFFFFF;
   background-color: #ffffff;
 } */
 
-/* -----------------ADRESS -----------------------*/
+/* -----------------FOOTER -----------------------*/
+
 .footer {
+  display: flex;
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -603,8 +605,8 @@ background: #FFFFFF;
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #4D5AE5;
-  /* margin-bottom: 101.5px;
-  margin-top: 17.5px; */
+  margin-bottom: 17.5px;
+  margin-top: 101.5px;
 }
 
 .footer-text {
@@ -621,7 +623,13 @@ color: #F4F4FD;
   width: 264px;
 }
 
+.styles-item {
+  display: flex;
+  /* align-items: center; */
+}
+
 .footer-list {
+
   font-style: normal;
     font-weight: 500;
     font-size: 16px;
