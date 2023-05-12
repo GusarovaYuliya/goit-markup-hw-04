@@ -403,10 +403,15 @@ body {
   margin-bottom: -30px;
 }
 .command-item {
-  flex-basis: calc(100% / 4 -30px);
-  margin-left: 30px;
-  margin-bottom: 30px;
+  box-sizing: border-box;
+  width: calc((100% - 72px) / 4);
+  background: #FFFFFF;
 }
+  /* flex-basis: calc(100% / 4 -30px);
+  margin-left: 30px;
+  margin-bottom: 30px; */
+
+
 
 .command-pre-title {
   font-weight: 500;
