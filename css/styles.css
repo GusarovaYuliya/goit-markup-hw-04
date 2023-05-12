@@ -403,6 +403,7 @@ body {
 }
 
 .command-item {
+  display: block;
   box-sizing: border-box;
   width: calc((100% - 72px) / 4);
   background: #FFFFFF;
