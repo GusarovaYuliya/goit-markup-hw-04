@@ -399,9 +399,9 @@ body {
 .command-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
-  margin-bottom: -30px;
+ gap: 24px;
 }
+
 .command-item {
   box-sizing: border-box;
   width: calc((100% - 72px) / 4);
