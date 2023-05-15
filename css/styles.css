@@ -495,7 +495,7 @@ border-radius: 0px 0px 4px 4px;
 .masters-sotial-list {
   display: flex;
   justify-content: center;
-  /* gap: 24px; */
+  gap: 24px;
 }
 
 .masters-sotial-item {
@@ -507,7 +507,6 @@ border-radius: 0px 0px 4px 4px;
   fill: currentColor;
   width: 40px;
   height: 40px;
-  gap: 24px;
 }
 
 .masters-sotial-link {
@@ -649,7 +648,7 @@ margin-top: 16px;
   align-items: baseline;
 }
 
-.masters-sotial-list {
+.footer-sotial-list {
   display: flex;
   justify-content: center;
   gap: 16px;
@@ -909,7 +908,7 @@ body {
   text-align: center;
 }
 
-/* .button-list .link:hover,
+.button-list .link:hover,
 .button-list .link:focus {
   color: #ffffff;
   background-color: #404BBF;
@@ -917,7 +916,7 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-} */
+}
 
 /* ---------Portfolio---------- */
 
@@ -1135,10 +1134,10 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
   gap: 120px;
 }
 
-.masters-sotial-list {
+.footer-sotial-list {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 .clients-sotial-item {
