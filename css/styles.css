@@ -340,6 +340,8 @@ color: #434455;
   align-items: center;
   height: 112px;
   background-color: #F4F4FD;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 .section {
@@ -348,7 +350,8 @@ color: #434455;
 }
 
 .masters-item-bottom {
-  padding-top: 30px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .section-list {
@@ -386,8 +389,9 @@ color: #434455;
 }
 
 /* ----------------WORK---------------- */
-.work-section {
-  padding-bottom: 94px;
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .about-container {
@@ -591,13 +595,13 @@ border-radius: 0px 0px 4px 4px;
 
 .footer {
   background: #2f303a;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-page {
   display: flex;
-  align-content: baseline;
+  align-items: baseline;
 }
 
 .logo-list {
