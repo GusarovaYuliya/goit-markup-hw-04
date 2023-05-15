@@ -534,11 +534,15 @@ border-radius: 0px 0px 4px 4px;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.02em;
   color:#2E2F42;
   margin-bottom: 72px;
+}
+
+.client-sotial-link {
+  width: calc((100% - 120px) / 6);
 }
 
 .clients-list {
@@ -632,7 +636,8 @@ margin-top: 16px;
 }
 
 .styles-item {
-  margin-left: 120px;
+  gap: 120px;
+  align-items: baseline,
 }
 
 .masters-sotial-list {
@@ -659,6 +664,7 @@ margin-top: 16px;
   width: 100%;
   height: 100%;
   border-radius: 50%;
+  background-color: #4d5ae5;
 }
 
 .client-page-link:hover,
@@ -872,7 +878,10 @@ body {
 .btn-item:focus {
   color: #FFFFFF;
   background: #404BBF;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); */
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 
@@ -896,7 +905,8 @@ body {
 .button-list .link:focus {
   color: #ffffff;
   background-color: #404BBF;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
@@ -935,7 +945,11 @@ background: #FFFFFF;
 .portfolio-link-sens:hover,
 .portfolio-link-sens:focus {
 display: block;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+/* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); */
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+  0px 1px 1px rgba(46, 47, 66, 0.16),
+  0px 2px 1px rgba(46, 47, 66, 0.08);
+  /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); */
 }
 
 /* .link:hover,
