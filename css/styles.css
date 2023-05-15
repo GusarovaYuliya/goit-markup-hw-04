@@ -250,10 +250,10 @@ color: #434455;
   background-size: cover;
   padding-top: 200px;
   padding-bottom: 200px;
+  /* max-width: 1440px; */
 }
 
 .hero-container {
-  max-width: 1440px;
   display: block;
   text-align: center;
 }
@@ -443,6 +443,10 @@ border-radius: 0px 0px 4px 4px;
   box-sizing: border-box;
   width: calc((100% - 72px) / 4);
   background: #FFFFFF;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .studio-link-sens:hover,
@@ -541,10 +545,6 @@ border-radius: 0px 0px 4px 4px;
   margin-bottom: 72px;
 }
 
-.client-sotial-link {
-  width: calc((100% - 120px) / 6);
-}
-
 .clients-list {
   display: flex;
   gap: 24px;
@@ -556,13 +556,13 @@ border-radius: 0px 0px 4px 4px;
   height: 88px;
 }
 
-.clients-item + .clients-item {
+/* .clients-item + .clients-item {
   margin-left: 30px;
-}
+} */
 
-.clients-image:not(:last-child) {
+/* .clients-image:not(:last-child) {
   margin-right: 30px;
-}
+} */
 
 .client-sotial-link {
   width: 100%;
@@ -637,7 +637,7 @@ margin-top: 16px;
 
 .styles-item {
   gap: 120px;
-  align-items: baseline,
+  align-items: baseline;
 }
 
 .masters-sotial-list {
@@ -937,18 +937,21 @@ body {
   display: block;
 }
 
-.portfolio-item :hover {
+.portfolio-item :hover,
+.portfolio-item :focus {
 background: #FFFFFF;
-  /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); */
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.portfolio-link-sens {
+  display: block;
 }
 
 .portfolio-link-sens:hover,
 .portfolio-link-sens:focus {
 display: block;
 /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); */
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-  0px 1px 1px rgba(46, 47, 66, 0.16),
-  0px 2px 1px rgba(46, 47, 66, 0.08);
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); */
 }
 
@@ -1117,6 +1120,11 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 
 .styles-item {
   margin-left: 120px;
+}
+
+.styles {
+  align-items: baseline;
+  gap: 120px;
 }
 
 .masters-sotial-list {
